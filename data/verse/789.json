@@ -1,0 +1,50 @@
+{
+    "id":789,
+    "type":1,
+    "bg_image":"3_full.jpg",
+    "bg_color":"FFFFFF",
+    "state":1,
+    "name":"Above the Clouds",
+    "text":"This is a test Verse",
+    "objects":[
+        {
+            "id":13,
+            "type":1,
+            "image":{
+                "file":"13_obj.png",
+                "width":200,
+                "height":200
+            },
+            "pos_x":152,
+            "pos_y":233,
+            "pos_z":-28,
+            "state":1
+        },
+        {
+            "id":14,
+            "type":1,
+            "image":{
+                "file":"14_obj.png",
+                "width":200,
+                "height":200
+            },
+            "pos_x":475,
+            "pos_y":402,
+            "pos_z":418,
+            "state":1
+        },
+        {
+            "id":15,
+            "type":1,
+            "image":{
+                "file":"15_obj.png",
+                "width":200,
+                "height":200
+            },
+            "pos_x":407,
+            "pos_y":275,
+            "pos_z":333,
+            "state":1
+        }
+    ]
+}

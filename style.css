@@ -64,29 +64,5 @@ footer, header, hgroup, menu, nav, section {
 
 /* =Layers
 ----------------------------------------------- */
-div.panel
-{
-    position: relative;
-}
-div.layer.visible               { position: fixed; }
-div.layer-0
-{
-    z-index: 0;
-    background-color: #999;
-    height: 100px;
-    width: 100%;
-}
-div.layer-1
-{
-    z-index: 1;
-    background-color: #666;
-    height: 130px;
-    width: 100%;
-}
-div.layer-2
-{
-    z-index: 2;
-    background-color: #333;
-    height: 160px;
-    width: 100%;
-}
+div.verse                           { position: relative; }
+div.verse > .object.visible         { position: absolute; display: block; }
